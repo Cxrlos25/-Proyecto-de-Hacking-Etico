@@ -1,20 +1,20 @@
 # -Proyecto-de-Hacking-Ético-
 
-
-
-Este repositorio documenta un proyecto académico orientado al aprendizaje de principios de **Hacking Ético**, enfocado en el análisis de conexiones y la exposición controlada de servicios en entornos Linux, con fines educativos y de concientización en ciberseguridad.
-
 ## Entorno de trabajo
-El proyecto fue desarrollado en un sistema operativo Linux, utilizando **Kali Linux** como entorno de laboratorio. Kali Linux es una distribución especializada en seguridad informática, ampliamente utilizada en contextos académicos y profesionales para prácticas de hacking ético y pruebas controladas.
+Este repositorio presenta un análisis educativo sobre los riesgos de seguridad y privacidad asociados al uso indebido de permisos de geolocalización en aplicaciones y sitios web, desde un enfoque de hacking ético y concientización en ciberseguridad.
+¿Por qué se desarollo?
+El proyecto se basa en el estudio de una prueba de concepto (PoC) que demuestra cómo un sitio web malicioso puede recolectar información sensible únicamente si el usuario otorga permisos explícitos, resaltando la importancia de no aceptar permisos sin verificar la legitimidad del sitio.
 
-## Uso de ngrok
-Como parte del laboratorio, se utilizó una cuenta en la plataforma **ngrok**, herramienta de tunelización que permite exponer servicios locales de forma temporal y segura para fines de prueba.
+Herramienta Analizada
 
-El uso de ngrok permitió:
-- Simular escenarios reales de acceso remoto.
-- Analizar conexiones entrantes a un servicio expuesto de manera controlada.
-- Observar metadatos básicos asociados a las conexiones.
+La herramienta estudiada es Seeker, un proyecto de código abierto que funciona como prueba de concepto, demostrando qué tipo de información puede ser recolectada por un sitio web si un usuario acepta permisos de ubicación.
 
+Tipo de información que puede exponerse (con consentimiento del usuario):
+-Latitud y longitud aproximada
+-Información del dispositivo y navegador
+-Dirección IP pública
+-Datos generales del sistema
+📌 Nota: La herramienta no explota vulnerabilidades; depende totalmente de la acción del usuario.
 
 ## Descripción del proyecto
 El proyecto consiste en una demostración controlada donde, al acceder a un link abre un doc,la persona al aceptar los permisos,da pie sin que lo sepa a que se pueda saber su dirección exacta,todo se genera con fines de aprendizaje.
@@ -45,8 +45,7 @@ La información de ubicación es estimada y depende de bases de datos públicas,
 - Ngrok
 - Maquina virtual
 
-## Alcance del proyecto
-Este proyecto no tiene como finalidad identificar personas ni realizar seguimiento individual, sino demostrar de manera conceptual cómo funcionan ciertos mecanismos utilizados en pruebas de hacking ético y por qué es importante proteger la información en entornos digitales.
+
 
 ## Evidencia del laboratorio
 
@@ -54,3 +53,8 @@ Este proyecto no tiene como finalidad identificar personas ni realizar seguimien
 ### Evidencia 2
 
 ![Evidencia 2](img/evidencia02.jpeg)
+
+👤 Autor
+
+Carlos Andre Hinostroza Altamirano
+Repositorio con fines de aprendizaje
