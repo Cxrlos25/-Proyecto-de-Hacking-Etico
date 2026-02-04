@@ -1,4 +1,4 @@
-# -Proyecto-de-Hacking-Etico-
+# -Proyecto-de-Hacking-Ético-
 
 
 
