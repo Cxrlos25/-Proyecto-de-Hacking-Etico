@@ -53,4 +53,4 @@ Este proyecto no tiene como finalidad identificar personas ni realizar seguimien
 ![Evidencia en Kali Linux](img/kali-evidencia.png.jpeg)
 ### Evidencia 2
 
-![Evidencia 2](img/evidencia2.jpe)
+![Evidencia 2](img/evidencia2.jpeg)
