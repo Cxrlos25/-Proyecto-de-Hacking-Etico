@@ -59,4 +59,4 @@ La información de ubicación es estimada y depende de bases de datos públicas,
 👤 Autor
 
 Carlos Andre Hinostroza Altamirano
-Repositorio/Fines de aprendizaje
+/Fines de aprendizaje
